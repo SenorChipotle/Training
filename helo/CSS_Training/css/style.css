@@ -1,0 +1,134 @@
+body{
+    font-family: Helvetica;
+    padding: 0;
+    margin: 0;
+}
+
+
+header{
+    background-color: #101010;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    height: 5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    background-color: #ffffff;
+    /* padding: 20px; */
+    width: 10.375em;
+    height: 2.3125em;
+    margin: 1.375em auto;
+    margin-left: 140px;
+    text-align: center;
+    align-items: center;
+}
+img{
+    width: 80%;
+    height: 80%;
+    object-fit: contain;
+}
+
+ul{
+    display: flex;
+    margin-right: 140px;
+}
+li{
+    list-style: none;
+    padding: 0 2.5em 0 0;
+    font-size: 20px;
+    display: inline-block;
+    position: relative;
+    color: #ffffff
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+section{
+    width: 100%;
+    height: 100vh;
+    display:flex;
+
+}
+
+.shapebg{
+    background-color:#000000;
+
+}
+
+a:hover{
+    text-decoration: underline;
+    text-underline-offset: 2rem;
+    text-decoration-thickness: 4px;
+}
+
+/* #firstsecback */
+.rectbg{                         
+    background-color: #101010;
+    vertical-align: bottom;
+}
+
+
+.rectangle{
+    margin-top: auto;
+    background-color: #000000;
+    margin-left: 8.75em;
+    width: 48em;
+    height: 11.0625em;
+    margin-bottom: 50px;
+    
+}
+
+.shape{
+    background-color: #101010;
+    margin-left: 8.75em;
+    width: 48em;
+    height: 20.1875em;
+    margin-top: 19.1875em;
+    margin-bottom: 20.375em;
+}
+
+.headingbg{
+    background-color: #000000;
+}
+
+.Heading2{
+    margin-top: 86px;
+    margin-left: 140px;
+    width: 660px;
+    height: 39px;
+    color: #FFFFFF;
+    text-align: left;
+    letter-spacing: 0px;
+    opacity: 1;
+}
+
+p{
+    width: 866px;
+    margin-right: 44px;
+    margin-top: 51px;
+    font: normal normal 300 16px/22px Open Sans;
+}
+
+h1{
+    font:normal normal 300 32px/39px Inter;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #000000;
+}
+
+.cards{
+    height: 14.438em;
+    width: 31.7em;
+    color: #101010;
+
+}
